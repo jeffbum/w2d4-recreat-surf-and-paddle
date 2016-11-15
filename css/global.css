@@ -1,55 +1,143 @@
-* { box-sizing:border-box; }
-body, html { width: 100%; }
-img { width: 100%;}
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
 
 #surfLogo {
-    width: 12px;
-    height: 12px;
+  width: 12px;
+  height: 12px;
 }
+
 .row1 {
-    background:    linear-gradient(
-      rgba(135, 206, 235, 0.45),
-      rgba(135, 206, 235, 0.45)
-    ),
-    url("http://unsplash.it/1000?image=10");
-    width:100%;
-    background-size: contain;
+  background-image: linear-gradient(rgba(23, 116, 185, 0.62), rgba(23, 116, 185, 0.62)), url(http://unsplash.it/500?image=10);
+  width: 100%;
 }
-
-
 
 .bigText {
-    font-size: 60px;
-    color: white;
-    padding-top: 120px;
-    padding-left: 70px;
+  font-size: 60px;
+  color: white;
+  padding-top: 120px;
+  padding-left: 70px;
 }
+
 .smallText {
-    font-size: 16px;
-    padding-left: 145px;
-    padding-bottom: 150px;
+  color: black;
+  font-size: 16px;
+  padding-left: 145px;
+  padding-bottom: 150px;
 }
+
 #searchIcon {
-    width: 12px;
-    height: 12px;
+  width: 12px;
+  height: 12px;
 }
-.col-sm-7 {
-    padding-left: 20px;
-    padding-right: 20px;
+
+.circlePic {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-image: linear-gradient(rgba(23, 116, 185, 0.62), rgba(23, 116, 185, 0.62)), url("../images/mugshot.jpg");
 }
-#circlePic {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    /*background:    linear-gradient(
-      rgba(135, 206, 235, 0.3),
-      rgba(135, 206, 235, 0.3)
-    );*/
-}
+
 #paragraph {
-    padding-top: 20px;
+  padding-top: 20px;
 }
+
 #sideBorder {
-    padding-left: 5px;
-    border-left: 2px black;
+  padding-left: 5px;
+  border-left: 2px black;
+}
+
+blockquote {
+  font-size: 30px;
+  color: blue;
+}
+
+#biggerCirclePic {
+  width: 100px;
+  height: 100px;
+  margin-left: 145px;
+  margin-top: 25px;
+}
+
+.inlineThings {
+  display: inline-block;
+  padding: 8px;
+  margin-bottom: 50px;
+}
+
+.largePic {
+  /* TODO: linear gradient for overlay */
+}
+
+.blue {
+  color: blue;
+}
+
+footer #footerImages {
+  display: flex;
+}
+
+footer #footerImages > div {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  height: 25vw;
+  color: #0c3b5e;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+footer #footerImages > div:hover h3 {
+  color: white;
+}
+
+footer #footerImages > div:nth-child(1) {
+  background-image: linear-gradient(rgba(23, 116, 185, 0.62), rgba(23, 116, 185, 0.62)), url(http://unsplash.it/500?image=1);
+}
+
+footer #footerImages > div:nth-child(1):hover {
+  background-image: url(http://unsplash.it/500?image=1);
+}
+
+footer #footerImages > div:nth-child(2) {
+  background-image: linear-gradient(rgba(23, 116, 185, 0.62), rgba(23, 116, 185, 0.62)), url(http://unsplash.it/500?image=2);
+}
+
+footer #footerImages > div:nth-child(2):hover {
+  background-image: url(http://unsplash.it/500?image=2);
+}
+
+footer #footerImages > div:nth-child(3) {
+  background-image: linear-gradient(rgba(23, 116, 185, 0.62), rgba(23, 116, 185, 0.62)), url(http://unsplash.it/500?image=3);
+}
+
+footer #footerImages > div:nth-child(3):hover {
+  background-image: url(http://unsplash.it/500?image=3);
+}
+
+footer #footerImages > div:nth-child(4) {
+  background-image: linear-gradient(rgba(23, 116, 185, 0.62), rgba(23, 116, 185, 0.62)), url(http://unsplash.it/500?image=4);
+}
+
+footer #footerImages > div:nth-child(4):hover {
+  background-image: url(http://unsplash.it/500?image=4);
+}
+
+footer #footerNav {
+  background-color: #083452;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #b3b3b3;
+}
+
+footer #footerNav a {
+  color: #b3b3b3;
 }
